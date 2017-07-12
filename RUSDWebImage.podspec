@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.framework = 'ImageIO'
-  s.source_files  = "SDWebImage/Classes/*.{h,m}, 'SDWebImage/Classes/FLAnimatedImage/*.{h,m}"
+  s.source_files  = "SDWebImage/**/*"
   s.dependency 'FLAnimatedImage', '~> 1.0'
 end
