@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'RHSDWebImage'
+  s.name = 'RUSDWebImage'
   s.version = '4.0.0.4'
 
   s.ios.deployment_target = '7.0'
