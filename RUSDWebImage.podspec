@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'RUSDWebImage'
-  s.version = '4.0.0.4'
+  s.version = '4.0.0.5'
 
   s.ios.deployment_target = '7.0'
  
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.framework = 'ImageIO'
-  s.source_files  = "SDWebImage/**/*"
+  s.source_files  = "SDWebImage/Classes/*.{h,m}, 'SDWebImage/Classes/FLAnimatedImage/*.{h,m}"
   s.dependency 'FLAnimatedImage', '~> 1.0'
 end
